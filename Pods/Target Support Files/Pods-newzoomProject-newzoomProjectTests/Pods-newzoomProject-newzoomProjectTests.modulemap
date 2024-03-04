@@ -1,0 +1,6 @@
+module Pods_newzoomProject_newzoomProjectTests {
+  umbrella header "Pods-newzoomProject-newzoomProjectTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
