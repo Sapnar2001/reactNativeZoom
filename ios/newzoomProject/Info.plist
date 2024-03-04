@@ -4,6 +4,10 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
+  <key>NSMicrophoneUsageDescription</key>
+    <string>The App requires access to your microphone for in-class audio interaction</string>
+    <key>NSCameraUsageDescription</key>
+      <string>The App requires access to your camera for in-class video interaction and to change your avatar</string>
 	<key>CFBundleDisplayName</key>
 	<string>newzoomProject</string>
 	<key>CFBundleExecutable</key>
@@ -26,6 +30,8 @@
 	<true/>
 	<key>NSAppTransportSecurity</key>
 	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<false/>
 		<key>NSExceptionDomains</key>
 		<dict>
 			<key>localhost</key>
